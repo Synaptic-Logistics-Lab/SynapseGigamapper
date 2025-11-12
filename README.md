@@ -1,4 +1,4 @@
-# Synapse Navigation
+# Synapse Navigator
 
 Synapse Navigation is a fork and extension of the [protGPS](https://github.com/pgmikhael/protgps) model, designed to explore and predict synapse-associated protein interactions using large-scale language model embeddings (ESM2) and fine-tuned transformer architectures (DR-BERT).  
 This repository includes scripts for training, evaluation, and visualization of model predictions.
@@ -37,9 +37,15 @@ mamba activate syna
 
 
 # Predictions
-To make predictions, edit and run either
+For predictions gene name and sequence is needed.
+
+To make predictions, edit and run either.
 * Predict-SyNa(2Synapse).ipynb 
 * Predict-SyNa(1Synapse).ipynb
+
+### For large list of proteins
+"BatchPredictionConverter.ipynb" can be used - Converts excel files of protein lists* to format suitable for prediction.
+*Fetched from UniProt ID mapping (Any Excel list can be used, but should have column name 'Entry Name' and 'Sequence')
 
 # Analysis 
 Analysis using the SynapseNavigator model has not yet been fully implemented,
