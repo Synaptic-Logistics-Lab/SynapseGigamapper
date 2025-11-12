@@ -176,3 +176,9 @@ tensorboard/
 *.ckpt
 *.pt
 *.bin
+
+
+# Windows metadata / alternate data stream sidecars
+*.Zone.Identifier
+*.identifier
+*.Identifier
