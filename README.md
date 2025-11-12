@@ -45,6 +45,8 @@ To make predictions, edit and run either.
 
 ### For large list of proteins
 "BatchPredictionConverter.ipynb" can be used - Converts excel files of protein lists* to format suitable for prediction.
+
+
 *Fetched from UniProt ID mapping (Any Excel list can be used, but should have column name 'Entry Name' and 'Sequence')
 
 # Analysis 
