@@ -171,7 +171,6 @@ notebook/data/
 *.bin
 # Large artifacts
 checkpoints/
-data/
 logs/
 tensorboard/
 *.ckpt
