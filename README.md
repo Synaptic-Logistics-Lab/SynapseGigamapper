@@ -56,16 +56,6 @@ but the underlying code has been left in place for those interested in extending
 # citation
 If you use SynapseNavigator in your work, please cite both this fork and the original protGPS publication. 
 
-## Original protGPS
-Mikhael, P. G., et al. (2023). protGPS: Protein Group Prediction System using ESM embeddings. Bioinformatics
-```
-@article{mikhael2023protGPS,
-  title   = {protGPS: Protein Group Prediction System using ESM embeddings},
-  author  = {Mikhael, Peter G. and others},
-  journal = {Bioinformatics},
-  year    = {2023}
-}
-```
 ## SynapseNavigator
 Brandt, L. B. (2025). SynapseNavigator: extension of protGPS for synapse-associated protein prediction. 
 
@@ -76,5 +66,16 @@ Brandt, L. B. (2025). SynapseNavigator: extension of protGPS for synapse-associa
   year         = {2025},
   howpublished = {\url{https://github.com/larsduved/SynapseNavigator}},
   note         = {Fork of protGPS (Mikhael et al., 2023)}
+}
+```
+
+## Original protGPS
+Mikhael, P. G., et al. (2023). protGPS: Protein Group Prediction System using ESM embeddings. Bioinformatics
+```
+@article{mikhael2023protGPS,
+  title   = {protGPS: Protein Group Prediction System using ESM embeddings},
+  author  = {Mikhael, Peter G. and others},
+  journal = {Bioinformatics},
+  year    = {2023}
 }
 ```
