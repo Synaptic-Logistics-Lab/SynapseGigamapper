@@ -169,3 +169,11 @@ notebook/data/
 *.ckpt
 *.pt
 *.bin
+# Large artifacts
+checkpoints/
+data/
+logs/
+tensorboard/
+*.ckpt
+*.pt
+*.bin

@@ -1,24 +1,29 @@
-[tool.poetry]
-name = "protgps"
-version = "0.0.1"
-description = ""
-authors = ["Peter G Mikhael <pgmikhael@csail.mit.edu>"]
-license = "MIT"
+[project]
+name = "SynapseNavigator"
+version = "0.1.0"
+description = "Synapse Navigator (SyNa): fork/extension of protGPS for synapse-related protein prediction."
 readme = "README.md"
-repository = "https://github.com/pgmikhael/protgps"
+license = "MIT"
+authors = [
+  { name = "Lars Boye Brandt", email = "larsboyebrandt@gmail.com" }
+]
 
+requires-python = ">=3.8,<3.12"
 
-[tool.poetry.dependencies]
-python = "3.8"
+[project.urls]
+Repository = "https://github.com/larsduved/SynapseNavigator"
+
+[tool.poetry]
+packages = [{ include = "protgps" }]
 
 [tool.poetry.group.ci.dependencies]
-black      = "^23.3.0"
-mypy       = "^1.1.1"
-pylint     = "^2.13.0"
-pytest     = "^7.1.2"
+black = "^23.3.0"
+mypy = "^1.1.1"
+pylint = "^2.13.0"
+pytest = "^7.1.2"
 pytest-cov = "^3.0.0"
-rstcheck   = { version = "^6.1.2", python = "<4" }
-ruff       = "^0.0.291"
+rstcheck = { version = "^6.1.2", python = "<4" }
+ruff = "^0.0.291"
 
 [build-system]
 requires = ["poetry-core"]
