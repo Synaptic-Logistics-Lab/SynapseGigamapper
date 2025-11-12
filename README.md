@@ -5,9 +5,12 @@ This repository includes scripts for training, evaluation, and visualization of 
 
 ---
 
-# Setup - This code is optimized to run on a linux-based system or an Ubuntu WSL.
+# Setup
+## This code is optimized to run on a linux-based system or an Ubuntu WSL.
 1. Install mamba or conda 
+
 1.1 Download installer from: https://github.com/conda-forge/miniforge
+
 1.2 Install and init
 
 ```
