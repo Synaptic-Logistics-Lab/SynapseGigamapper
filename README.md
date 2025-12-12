@@ -29,7 +29,7 @@ mamba activate syna
 
 # Setting up checkpoints folder
 ## SynapseNavigator
-1. Download model checkpoints from (insert source website)
+1. Download model checkpoints by contacting chaosun@dandrite.au.dk
 2. Unzip file (Should end up named "checkponts" and contain a folder called "SyNa")
 
 ## [ESM2](https://github.com/facebookresearch/esm/) & [DR-BERT](https://github.com/maslov-group/DR-BERT)
