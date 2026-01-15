@@ -1,0 +1,57 @@
+# ESM-C 600M Fine-tuning Environment
+# Python 3.10 required for ESM package
+#
+# Create environment:
+#   conda env create -f environment_esmc.yml
+#   conda activate syna_esmc
+#
+# Update environment:
+#   conda env update -f environment_esmc.yml --prune
+
+name: syna_esmc
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python (must be >= 3.10 for ESM package)
+  - python=3.10
+
+  # Deep Learning
+  - pytorch=2.0.0
+  - pytorch-cuda=11.7
+  - pytorch-lightning=1.6.4
+  - tensorboard
+
+  # Scientific Computing
+  - numpy>=1.23
+  - pandas>=2.0
+  - scipy>=1.10
+  - scikit-learn>=1.0
+  - matplotlib>=3.7
+
+  # Utilities
+  - tqdm
+  - pyyaml
+  - h5py
+  - openpyxl  # For Excel export
+
+  # Jupyter (optional, for notebooks)
+  - jupyterlab
+  - ipykernel
+
+  # Pip packages
+  - pip
+  - pip:
+    # ESM package (EvolutionaryScale, Dec 2024)
+    - esm
+    # Transformers for tokenizers
+    - transformers>=4.35
+    - tokenizers>=0.15
+    # Git integration
+    - gitpython
+    # Experiment tracking (optional)
+    - wandb
