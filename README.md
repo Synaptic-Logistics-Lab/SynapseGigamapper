@@ -1,6 +1,6 @@
 # Synapse Navigator
 
-Synapse Navigation is a fork and extension of the [protGPS](https://github.com/pgmikhael/protgps) model, designed to explore and predict synapse-associated protein interactions using large-scale language model embeddings (ESM2) and fine-tuned transformer architectures (DR-BERT).  
+Synapse Navigation is built upon [protGPS] (https://github.com/pgmikhael/protgps) model, designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
 This repository includes scripts for training, evaluation, and visualization of model predictions.
 
 ---
