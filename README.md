@@ -28,7 +28,7 @@ mamba activate syna
 ```
 
 # Setting up checkpoints folder
-## SynapseNavigator
+## SynapseGigamapper
 1. Download model checkpoints by contacting chaosun@dandrite.au.dk (O:\Nat_sun-lab\PROTGPS\Lars\SyNa\SynapseNavigator\checkpoints\protgps)
 2. Unzip file (Should end up named "checkponts" and contain a folder called "SyNa")
 
@@ -54,10 +54,10 @@ Analysis using the SynapseNavigator model has not yet been fully implemented,
 but the underlying code has been left in place for those interested in extending it.
 
 # citation
-If you use SynapseNavigator in your work, please cite both this fork and the original protGPS publication. 
+If you use SynapseGigamapper in your work, please cite both this fork and the original protGPS publication. 
 
-## SynapseNavigator
-Brandt, L. B. (2025). SynapseNavigator: extension of protGPS for synapse-associated protein prediction. 
+## SynapseGigamapper
+Brandt, L. B. (2025). SynapseGigamapper: a Protein Language Model for protein localization prediction at Neuronal Synapses. 
 
 ```
 @misc{brandt2025synapsenavigator,
