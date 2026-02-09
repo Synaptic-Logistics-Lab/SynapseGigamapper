@@ -1,4 +1,4 @@
-# Synapse Gigamapper (Sygi)
+# Synapse Gigamapper (SyGi)
 
 Synapse Gigamapper is custom-built based on the [ProtGPS] model (https://github.com/pgmikhael/protgps), designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
 This repository includes scripts for training, evaluation, and visualization of model predictions.
@@ -62,7 +62,7 @@ Chao Sun Lab (2025). SynapseGigamapper: a Protein Language Model for protein loc
 ```
 @misc{brandt2025synapsegigamapper,
   author       = {Sun lab, DANDRITE, Aarhus University},
-  title        = {SynapseGigamapper: Protein localisation prediction for neuronal synapses},
+  title        = {SynapseGigamapper: Protein localisation prediction for synapses},
   year         = {2025},
   howpublished = {\url{https://github.com/Synaptic-Logistics-lab/SynapseGigamapper}},
   note         = {see also ProtGPS (Mikhael et al., 2023)}
