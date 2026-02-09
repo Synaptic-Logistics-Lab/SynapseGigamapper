@@ -1,6 +1,6 @@
 # Synapse Gigamapper
 
-Synapse Gigamapper is built upon [protGPS] (https://github.com/pgmikhael/protgps) model, designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
+Synapse Gigamapper is optimized based on the [protGPS] (https://github.com/pgmikhael/protgps) model, designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
 This repository includes scripts for training, evaluation, and visualization of model predictions.
 
 ---
@@ -60,11 +60,11 @@ If you use SynapseGigamapper in your work, please cite both this fork and the or
 Brandt, L. B. (2025). SynapseGigamapper: a Protein Language Model for protein localization prediction at Neuronal Synapses. 
 
 ```
-@misc{brandt2025synapsenavigator,
+@misc{brandt2025synapsegigamapper,
   author       = {Lars Boye Brandt},
-  title        = {SynapseNavigator: synapse-associated protein localisation prediction},
+  title        = {SynapseGigamapper: synapse-associated protein localisation prediction},
   year         = {2025},
-  howpublished = {\url{https://github.com/larsduved/SynapseNavigator}},
+  howpublished = {\url{https://github.com/larsduved/SynapseGigamapper}},
   note         = {Fork of protGPS (Mikhael et al., 2023)}
 }
 ```
