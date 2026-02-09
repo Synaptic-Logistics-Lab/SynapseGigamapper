@@ -1,6 +1,6 @@
-# Synapse Navigator
+# Synapse Gigamapper
 
-Synapse Navigation is built upon [protGPS] (https://github.com/pgmikhael/protgps) model, designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
+Synapse Gigamapper is built upon [protGPS] (https://github.com/pgmikhael/protgps) model, designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
 This repository includes scripts for training, evaluation, and visualization of model predictions.
 
 ---
