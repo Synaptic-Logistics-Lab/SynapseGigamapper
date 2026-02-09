@@ -61,7 +61,7 @@ Chao Sun Lab (2025). SynapseGigamapper: a Protein Language Model for protein loc
 
 ```
 @misc{brandt2025synapsegigamapper,
-  author       = {Sun lab, DANDRITE & Department of Molecular Biology and Genetics, Aarhus University},
+  author       = {Sun lab, DANDRITE, Aarhus University},
   title        = {SynapseGigamapper: Protein localisation prediction for neuronal synapses},
   year         = {2025},
   howpublished = {\url{https://github.com/Synaptic-Logistics-lab/SynapseGigamapper}},
