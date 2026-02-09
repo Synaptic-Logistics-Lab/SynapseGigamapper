@@ -1,6 +1,6 @@
 # Synapse Gigamapper
 
-Synapse Gigamapper is optimized based on the [protGPS] (https://github.com/pgmikhael/protgps) model, designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
+Synapse Gigamapper is custom-built based on the [ProtGPS] model (https://github.com/pgmikhael/protgps), designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
 This repository includes scripts for training, evaluation, and visualization of model predictions.
 
 ---
@@ -50,32 +50,22 @@ To make predictions, edit and run either.
 *Fetched from UniProt ID mapping (Any Excel list can be used, but should have column name 'Entry Name' and 'Sequence')
 
 # Analysis 
-Analysis using the SynapseNavigator model has not yet been fully implemented,
-but the underlying code has been left in place for those interested in extending it.
+Analyses using the SynapseGigamapper model have not yet been fully updated here.
+The underlying code has been left in place for those interested in extending it.
 
 # citation
-If you use SynapseGigamapper in your work, please cite both this fork and the original protGPS publication. 
+If you use SynapseGigamapper in your work, please cite this work. 
 
 ## SynapseGigamapper
-Brandt, L. B. (2025). SynapseGigamapper: a Protein Language Model for protein localization prediction at Neuronal Synapses. 
+Chao Sun Lab (2025). SynapseGigamapper: a Protein Language Model for protein localization prediction at Neuronal Synapses. 
 
 ```
 @misc{brandt2025synapsegigamapper,
-  author       = {Lars Boye Brandt},
-  title        = {SynapseGigamapper: synapse-associated protein localisation prediction},
+  author       = {Sun lab, DANDRITE & Department of Molecular Biology and Genetics, Aarhus University},
+  title        = {SynapseGigamapper: Protein localisation prediction for neuronal synapses},
   year         = {2025},
-  howpublished = {\url{https://github.com/larsduved/SynapseGigamapper}},
-  note         = {Fork of protGPS (Mikhael et al., 2023)}
+  howpublished = {\url{https://github.com/Synaptic-Logistics-lab/SynapseGigamapper}},
+  note         = {see also ProtGPS (Mikhael et al., 2023)}
 }
 ```
 
-## Original protGPS
-Mikhael, P. G., et al. (2023). protGPS: Protein Group Prediction System using ESM embeddings. Bioinformatics
-```
-@article{mikhael2023protGPS,
-  title   = {protGPS: Protein Group Prediction System using ESM embeddings},
-  author  = {Mikhael, Peter G. and others},
-  journal = {Bioinformatics},
-  year    = {2023}
-}
-```
