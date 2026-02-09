@@ -29,7 +29,7 @@ mamba activate syna
 
 # Setting up checkpoints folder
 ## SynapseGigamapper
-1. Download model checkpoints by contacting chaosun@dandrite.au.dk (O:\Nat_sun-lab\PROTGPS\Lars\SyNa\SynapseNavigator\checkpoints\protgps)
+1. Download model checkpoints by contacting chaosun@dandrite.au.dk (Lab Storage: PROTGPS\Lars\SyNa\SynapseNavigator\checkpoints\protgps)
 2. Unzip file (Should end up named "checkponts" and contain a folder called "SyNa")
 
 ## [ESM2](https://github.com/facebookresearch/esm/) & [DR-BERT](https://github.com/maslov-group/DR-BERT)
