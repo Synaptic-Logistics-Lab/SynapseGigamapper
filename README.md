@@ -5,61 +5,198 @@ This repository includes scripts for training, evaluation, and visualization of 
 
 ---
 
-# Setup
-## This code is optimized to run on a linux-based system or an Ubuntu WSL.
-1. Install mamba or conda 
+## Installation Guide
 
-1.1 Download installer from: https://github.com/conda-forge/miniforge
+This guide explains how to install **SynapseGigamapper (SyGi)** using
+Ubuntu (native Linux or Windows Subsystem for Linux).
 
-1.2 Install and init
+------------------------------------------------------------------------
 
+## 1. Install Ubuntu (Windows Only)
+
+If you are using Windows, install **Windows Subsystem for Linux (WSL)**:
+
+1.  Open **PowerShell as Administrator**
+2.  Run:
+
+``` bash
+wsl --install
 ```
-bash Miniforge-pypy3-Linux-x86_64.sh
+
+3.  Follow the installation prompts.
+4.  Restart your PC when prompted.
+
+After restarting, open your Ubuntu terminal.
+
+> If you are already using Linux, you can skip this step.
+
+------------------------------------------------------------------------
+
+## 2. Install Conda/Mamba (Miniforge)
+
+We recommend using **Miniforge (conda-forge)** for managing
+dependencies.
+
+### Download Miniforge
+
+Open your Ubuntu terminal and run:
+
+``` bash
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh
 ```
 
-2. Create environment
+### Install Miniforge
+
+``` bash
+bash Miniforge3-$(uname)-$(uname -m).sh
 ```
+
+Follow the installation prompts and allow it to initialize conda.
+
+After installation, restart your terminal.
+
+------------------------------------------------------------------------
+
+## 3. Download SynapseGigamapper
+
+### Option A --- Download ZIP
+
+1.  Download the repository as a ZIP file from GitHub.
+2.  Extract `SynapseGigamapper-main.zip`.
+3.  Move the extracted folder into your Ubuntu home directory.
+
+### Option B --- Clone via Git
+
+``` bash
+git clone https://github.com/Synaptic-Logistics-Lab/SynapseGigamapper
+```
+
+------------------------------------------------------------------------
+
+## 4. Create the Conda Environment
+
+Navigate into the project directory:
+
+``` bash
+cd SynapseGigamapper-main
+```
+
+Create the environment:
+
+``` bash
 mamba env create -f environment.yml
 ```
 
-3. Activate
-```
+> This step may take several minutes.
+
+------------------------------------------------------------------------
+
+## 5. Activate the Environment
+
+Once installation is complete, activate the environment:
+
+``` bash
 mamba activate syna
 ```
 
-# Setting up checkpoints folder
-## SynapseGigamapper
-1. Download model checkpoints by contacting chaosun@dandrite.au.dk (Lab Storage: PROTGPS\Lars\SyNa\SynapseNavigator\checkpoints\protgps)
-2. Unzip file (Should end up named "checkponts" and contain a folder called "SyNa")
+Your terminal prompt should now start with:
 
-## [ESM2](https://github.com/facebookresearch/esm/) & [DR-BERT](https://github.com/maslov-group/DR-BERT)
-1. Find "ESM2&BertDownload.ipynb" and run the 2 chunks (Use the syna kernel)
+    (syna)
 
+Install the environment as a Jupyter kernel:
 
-# Predictions
-For predictions gene name and sequence is needed.
-
-To make predictions, edit and run either.
-* Predict-SyNa(2Synapse).ipynb 
-* Predict-SyNa(1Synapse).ipynb
-
-### For large list of proteins
-"BatchPredictionConverter.ipynb" can be used - Converts excel files of protein lists* to format suitable for prediction.
-
-
-*Fetched from UniProt ID mapping (Any Excel list can be used, but should have column name 'Entry Name' and 'Sequence')
-
-# Analysis 
-Analyses using the SynapseGigamapper model have not yet been fully updated here.
-The underlying code has been left in place for those interested in extending it.
-
-# citation
-If you use SynapseGigamapper in your work, please cite this work. 
-
-## SynapseGigamapper
-Chao Sun Lab (2025). SynapseGigamapper: a Protein Language Model for protein localization prediction at Neuronal Synapses. 
-
+``` bash
+python -m ipykernel install --user --name=syna --display-name "Python (syna)"
 ```
+
+------------------------------------------------------------------------
+
+## 6. Setting Up Checkpoints Folder
+
+1.  Download model checkpoints by contacting:
+
+```{=html}
+<!-- -->
+```
+    chaosun@dandrite.au.dk
+    Lab Storage: PROTGPS\Lars\SyNa\SynapseNavigator\checkpoints\protgps
+
+2.  Unzip the file
+    -   The folder should be named `checkpoints`
+    -   It should contain:
+        -   `SyNa`
+        -   `drbert`
+3.  Move the `checkpoints` folder into:
+
+```{=html}
+<!-- -->
+```
+    SynapseGigamapper-main
+
+4.  Open `ESM2&BertDownload.ipynb`
+    -   Ensure you are using the **syna kernel**
+    -   Run both code cells
+
+------------------------------------------------------------------------
+
+## Troubleshooting
+
+### Environment Creation Fails Due to pip Dependency Conflicts
+
+If you encounter dependency conflicts (for example with `jupyterlab`):
+
+-   Try disabling any VPNs
+-   Install missing dependencies in batches
+
+------------------------------------------------------------------------
+
+## Predictions
+
+Predictions require:
+
+-   Gene name
+-   Protein sequence
+
+To make predictions, edit and run one of the following notebooks:
+
+-   `Predict-SyNa(2Synapse).ipynb`
+-   `Predict-SyNa(1Synapse).ipynb`
+
+### Batch Predictions
+
+For large protein lists, use:
+
+    BatchPredictionConverter.ipynb
+
+This notebook converts Excel protein lists into prediction-ready format.
+
+#### Excel File Requirements
+
+-   Typically fetched from UniProt ID mapping
+-   Any Excel list can be used if it contains:
+    -   `Entry Name`
+    -   `Sequence`
+
+------------------------------------------------------------------------
+
+## Analysis
+
+Analysis tools using the SynapseGigamapper model are not yet fully
+updated.\
+The underlying code remains available for users interested in extending
+functionality.
+
+------------------------------------------------------------------------
+
+## Citation
+
+If you use SynapseGigamapper in your work, please cite:
+
+**SynapseGigamapper**\
+Chao Sun Lab (2025). SynapseGigamapper: A Protein Language Model for
+Protein Localization Prediction at Neuronal Synapses.
+
+``` bibtex
 @misc{brandt2025synapsegigamapper,
   author       = {Sun lab, DANDRITE, Aarhus University},
   title        = {SynapseGigamapper: Protein localisation prediction for synapses},
