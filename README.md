@@ -156,10 +156,9 @@ Predictions require:
 -   Gene name
 -   Protein sequence
 
-To make predictions, edit and run one of the following notebooks:
+To make predictions, edit and run one the following notebook:
 
 -   `Predict-SyNa(2Synapse).ipynb`
--   `Predict-SyNa(1Synapse).ipynb`
 
 ### Batch Predictions
 
