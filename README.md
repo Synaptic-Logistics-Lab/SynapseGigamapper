@@ -112,6 +112,7 @@ python -m ipykernel install --user --name=syna --display-name "Python (syna)"
 ------------------------------------------------------------------------
 
 ## 6. Setting Up Checkpoints Folder
+Checkpoints from DR-BERT (https://github.com/maslov-group/DR-BERT) and ESM2 (https://github.com/facebookresearch/esm?tab=readme-ov-file#esmfold)
 
 1.  Download model checkpoints by contacting:
 
