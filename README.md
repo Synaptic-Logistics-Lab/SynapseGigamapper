@@ -119,7 +119,7 @@ Checkpoints from DR-BERT (https://github.com/maslov-group/DR-BERT) and ESM2 (htt
 ```
     chaosun@dandrite.au.dk
     Lab Storage: PROTGPS\Lars\SyNa\SynapseNavigator\checkpoints\protgps
-
+```
 2.  Unzip the file
     -   The folder should be named `checkpoints`
     -   It should contain:
