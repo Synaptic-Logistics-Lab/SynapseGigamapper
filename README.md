@@ -116,7 +116,6 @@ Checkpoints from DR-BERT (https://github.com/maslov-group/DR-BERT) and ESM2 (htt
 
 1.  Download model checkpoints by contacting:
 
-```{=html}
 ```
     chaosun@dandrite.au.dk
     Lab Storage: PROTGPS\Lars\SyNa\SynapseNavigator\checkpoints\protgps
