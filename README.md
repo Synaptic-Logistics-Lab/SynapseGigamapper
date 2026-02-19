@@ -1,6 +1,6 @@
 # Synapse Gigamapper (SyGi)
 
-Synapse Gigamapper is custom-built based on the [ProtGPS] model (https://github.com/pgmikhael/protgps), designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using large-scale language model embeddings (ESM2 or ESM-C) and fine-tuned transformer architectures (DR-BERT).  
+Synapse Gigamapper is custom-built based on Evolutionary Scale Modeling (ESM) embeddings and the multi-task learning framework of the [ProtGPS] model (https://github.com/pgmikhael/protgps), designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using ESM2 or ESM-C and fine-tuned transformer architectures (DR-BERT).  
 This repository includes scripts for training, evaluation, and visualization of model predictions.
 
 ---
