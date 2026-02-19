@@ -179,7 +179,7 @@ This notebook converts Excel protein lists into prediction-ready format.
 
 ## Analysis
 
-Analysis tools using the SynapseGigamapper model are not yet fully
+Analysis scripts using the SynapseGigamapper model are being actively
 updated.\
 The underlying code remains available for users interested in extending
 functionality.
