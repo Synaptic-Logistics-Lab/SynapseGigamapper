@@ -114,11 +114,10 @@ python -m ipykernel install --user --name=syna --display-name "Python (syna)"
 ## 6. Setting Up Checkpoints Folder
 Checkpoints from DR-BERT (https://github.com/maslov-group/DR-BERT) and ESM2 (https://github.com/facebookresearch/esm?tab=readme-ov-file#esmfold)
 
-1.  Download model checkpoints by contacting:
+1.  Download model checkpoints on Google Drive:
 
 ```
-    chaosun@dandrite.au.dk
-    Lab Storage: PROTGPS\Lars\SyNa\SynapseNavigator\checkpoints\protgps
+   https://drive.google.com/file/d/13MvsAn62gKO2pX68diqTxsQ_aBQ-uPdo/view?usp=drive_link
 ```
 2.  Unzip the file
     -   The folder should be named `checkpoints`
