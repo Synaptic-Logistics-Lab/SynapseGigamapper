@@ -117,7 +117,8 @@ Checkpoints from DR-BERT (https://github.com/maslov-group/DR-BERT) and ESM2 (htt
 1.  Download model checkpoints on Google Drive:
 
 ```
-   https://drive.google.com/file/d/13MvsAn62gKO2pX68diqTxsQ_aBQ-uPdo/view?usp=drive_link
+(ESM2) https://drive.google.com/file/d/13MvsAn62gKO2pX68diqTxsQ_aBQ-uPdo/view?usp=sharing
+(ESMC) https://drive.google.com/file/d/1v1WFYzZgzvg0GGGuVLc5FoYminep7dht/view?usp=sharing
 ```
 2.  Unzip the file
     -   The folder should be named `checkpoints`
