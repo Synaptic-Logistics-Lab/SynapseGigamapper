@@ -1,6 +1,6 @@
 # Synapse Gigamapper (SyGi)
 
-Synapse Gigamapper is custom-built based on Evolutionary Scale Modeling (ESM) embeddings and the multi-task learning framework of the [ProtGPS] model (https://github.com/pgmikhael/protgps), designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using ESM2 or ESM-C and fine-tuned transformer architectures (DR-BERT).  
+Synapse Gigamapper is a specialized protein language model built based on Evolutionary Scale Modeling Cambrian (ESM-C) embeddings and the multi-task learning framework of the [ProtGPS] model (https://github.com/pgmikhael/protgps), designed to explore and predict protein localisations at excitatory and inhibitory synapses in addition to standard subcellular compartments using ESM-C and fine-tuned transformer architectures (DR-BERT).  
 This repository includes scripts for training, evaluation, and visualization of model predictions.
 
 ---
@@ -112,7 +112,7 @@ python -m ipykernel install --user --name=syna --display-name "Python (syna)"
 ------------------------------------------------------------------------
 
 ## 6. Setting Up Checkpoints Folder
-Checkpoints from DR-BERT (https://github.com/maslov-group/DR-BERT) and ESM2 (https://github.com/facebookresearch/esm?tab=readme-ov-file#esmfold)
+Checkpoints from DR-BERT (https://github.com/maslov-group/DR-BERT) and ESM (https://github.com/facebookresearch/esm?tab=readme-ov-file#esmfold)
 
 1.  Download model checkpoints on Google Drive:
 
